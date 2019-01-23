@@ -1,11 +1,13 @@
-/* Available content */
+/* all authorized content id(s) */
 
 select id as authorizedcid 
 from dgcontent
 where functioncid is null 
   and catid is not null 
   and nocode is not null
-  
+
+/* all granted content id(s) */
+
 select a.cid as grantedcid
 from dgcontentauth a
 where a.ruid not in 
