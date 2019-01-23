@@ -14,3 +14,7 @@ select c.id as grantedcid,
              where functioncid is null 
                and catid is not null 
                and nocode is not null)) order by c.nocode
+
+             
+             
+             
