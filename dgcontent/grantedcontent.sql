@@ -1,3 +1,4 @@
+
 select c.id as grantedcid,
        c.nocode,
        c.linkurl,
@@ -15,6 +16,3 @@ select c.id as grantedcid,
                and catid is not null 
                and nocode is not null)) order by c.nocode
 
-             
-             
-             
