@@ -1,3 +1,3 @@
 # doublegreen.smoothhr.35.sqlserver
 
-SmoothHR database SQL statement(s) for multi-purpose usage.
+SmoothHR database sql statements for multi-purpose usage.
