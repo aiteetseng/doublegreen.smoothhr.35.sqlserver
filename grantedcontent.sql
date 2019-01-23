@@ -1,12 +1,12 @@
 /* Available content */
 
-select count(id) 
+select id as authorizedcid 
 from dgcontent
 where functioncid is null 
   and catid is not null 
   and nocode is not null
   
-select cid 
+select cid as grantedcid
 from dgcontentauth a
 where a.ruid not in 
       (select ruid from dgcontentauth 
