@@ -11,7 +11,7 @@ select c.id as grantedcid,
              (select ruid from dgcontentauth 
                where cid='1615E6C2-7803-4F1C-803A-1FC546AE01CB')
           and a.ruid in 
-  	      (select rid from dgroleuser)
+             (select rid from dgroleuser)
           and a.cid in 
              (select id from dgcontent
                where functioncid is null 
